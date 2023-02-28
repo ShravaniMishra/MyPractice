@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <>
-      <h1>My Name is {name}</h1>
+      <h1 contentEditable="true">My Name is {name}</h1>
       <h2>Current Date : {currDate}</h2>
       <h2>Current Time : {currTime}</h2>
       </>
