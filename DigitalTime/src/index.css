@@ -30,6 +30,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   cursor: pointer;
+  background-color: #1a1a1a;
+  color: goldenrod;
+  font-size: 25px;
 }
 
 h1 {

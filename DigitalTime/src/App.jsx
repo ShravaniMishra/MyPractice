@@ -8,10 +8,12 @@ function App() {
     newTime = new Date().toLocaleTimeString()
     setTime(newTime);
   }
+  setInterval(handleClick,1000)
   return (
     <div className="App">
-      <h1>{time}</h1>
-      <button onClick={handleClick}>Get Exact Time</button>
+      <h1>Digital Clock</h1>
+      <h1 style={{fontSize:"45px"}}>{time}</h1>
+      {/* <button onClick={handleClick}>Get Exact Time</button> */}
     </div>
   )
 }
