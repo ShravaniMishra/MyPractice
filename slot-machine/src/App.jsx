@@ -16,6 +16,7 @@ function App() {
         <Slot x="🍍" y="🍎" z="🍎"/>
         <hr />
         <Slot x="🍍" y="🍍" z="🍍"/>
+        
        
         
 

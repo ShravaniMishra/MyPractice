@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
      <>
-     <h1>Hello Govind <span style={css}>{greetings}</span></h1>
+     <h1>Hello Govind  <span style={css}>{greetings}</span></h1>
      </>
     </div>
   )
